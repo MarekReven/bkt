@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1338</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>mariusz/logo2.png</pixmap>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout_3">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLabel" name="model">
+        <property name="text">
+         <string>Model listwy:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="uchwyty">
+        <property name="text">
+         <string>Uchwyty:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBox_2"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="zasilanie">
+        <property name="text">
+         <string>Zasilanie na wejściu:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBox_3"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="kontrola">
+        <property name="text">
+         <string>Kontrola PDU:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBox_4"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="ochrona">
+        <property name="text">
+         <string>Ochrona PDU:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="comboBox_5"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="ilosc_1">
+        <property name="text">
+         <string>Ilość gniazd I typu:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="comboBox_6"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="typ_1">
+        <property name="text">
+         <string>I typ gniazd:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QComboBox" name="comboBox_7"/>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="ilosc_2">
+        <property name="text">
+         <string>Ilość gniazd II typu:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QComboBox" name="comboBox_8"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="typ_2">
+        <property name="text">
+         <string>II typ gniazd: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QComboBox" name="comboBox_9"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="index_short">
+        <property name="text">
+         <string>Index krótki:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item row="12" column="0">
+       <widget class="QLabel" name="index_long">
+        <property name="text">
+         <string>Index długi: </string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+      <item row="13" column="1">
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Prześlij dane do pliku</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

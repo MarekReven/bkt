@@ -1,0 +1,33 @@
+Model Listwy,,,Uchwyty,,,Zasilanie na wejściu,,,Kontrola PDU,,,ochrona PDU,,,Ilość gniazd I typu,,,I Typ gniazd,,,Ilość gniazd II typu,,,II typ gniazd,
+Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:,,Nazwa:,Index:
+PDU - Basic,1134,,Multi Side,0,,DIN49441 (16A),0,,bez kontroli,0,,bez ochrony,0,,01,01,,DIN49440 (16A) SCHUKO,0,,00,00,,DIN49440 (16A) SCHUKO,0
+IP-PDU,1134IP,,Przód/tyl (góra/dól),1,,IEC 320 C14 (10A),2,,wyłącznik,1,,wymienny moduł odgromowy,1,,02,02,,NF C61-314:2003 (16A) bolec,1,,01,01,,NF C61-314:2003 (16A) bolec,1
+MS-PDU,1134MS,,Beznarzędziowe,2,,2 x IEC 320 C14 (10A),3,,wyłacznik z bezpiecznikiem automatycznym,2,,moduł odgromowy,2,,03,03,,IEC320 C13 (10A),2,,02,02,,IEC320 C13 (10A),2
+PCDS,1134PC,,Beznarzędziowe + przód/tył (góra/dół),3,,IEC 320 C20 (16A),6,,kontrolka LED,3,,bezpiecznik automatyczny,3,,04,04,,IEC320 C13 (10A) z zamkiem,3,,03,03,,IEC320 C13 (10A) z zamkiem,3
+NPM-V,1134N,,,,,2 x IEC 320 C20 (16A),4,,kontrolka z bezpiecznikiem automatycznym,4,,amperomierz trójfazowy,4,,05,05,,IEC320 C13 (10A) z bezpiecznikiem,4,,04,04,,IEC320 C13 (10A) z bezpiecznikiem,4
+RPDU,1134RP,,,,,IEC 60309 (16A/250V),7,,gniazdo pod moduł MPD,5,,amperomierz jednofazowy,5,,06,06,,IEC320 C13 (10A) z zamkiem i bezpiecznikiem,5,,05,05,,IEC320 C13 (10A) z zamkiem i bezpiecznikiem,5
+ATS,1134A,,,,,2 x IEC 60309 (16A/250V),5,,wyłącznik nadmiarowo-prądowy (MCB),6,,moduł odgromowy z filtrem,6,,07,07,,IEC320 C19 (16A),6,,06,06,,IEC320 C19 (16A),6
+EMS,1134E,,,,,IEC 60309 (32A/250V),8,,wyłącznik nadmiarowo-prądowy w blokach x 2 (MCB),7,,bezpiecznik topikowy,7,,08,08,,IEC 60309 (16A/250V),7,,07,07,,IEC 60309 (16A/250V),7
+Czujka,1134C,,,,,2 x IEC 60309 (32A/250V),9,,wyłącznik różnicowo-prądowy,8,,amperomierz trójfazowy + bezpiecznik automatyczny,8,,09,09,,IEC 60309 (32A/250V),8,,08,08,,IEC 60309 (32A/250V),8
+Moduł Pomiarowy MPD,1134M,,,,,IEC 60309 (16A/400V),A,,voltomierze,9,,amperomierz jednofazowy + bezpiecznik automatyczny,9,,10,10,,BS1363 (90°),9,,09,09,,BS1363 (90°),9
+,,,,,,2 x IEC 60309 (16A/400V),D,,rozłącznik 32A,A,,6 x bezpiecznik automatyczny  32A + 3x bezpiecznik kontrolki LED,A,,11,11,,,,,10,10,,,
+,,,,,,IEC 60309 (32A/400V),B,,3 x kontrolka Led,B,,3 x amperomierz jednofazowy,B,,12,12,,,,,11,11,,,
+,,,,,,2 x IEC 60309 (32A/400V),E,,6 x bezpiecznik automatyczny + 6 x kontrolka LED,C,,bezpiecznik termiczny,C,,13,13,,,,,12,12,,,
+,,,,,,IEC 60309 (63A/400V),C,,,,,moduł USB,D,,14,14,,,,,13,13,,,
+,,,,,,BS1363,F,,,,,2 x amperomierz jednofazowy,E,,15,15,,,,,14,14,,,
+,,,,,,,,,,,,,,,16,16,,,,,15,15,,,
+,,,,,,,,,,,,,,,17,17,,,,,16,16,,,
+,,,,,,,,,,,,,,,18,18,,,,,17,17,,,
+,,,,,,,,,,,,,,,19,19,,,,,18,18,,,
+,,,,,,,,,,,,,,,20,20,,,,,19,19,,,
+,,,,,,,,,,,,,,,21,21,,,,,20,20,,,
+,,,,,,,,,,,,,,,22,22,,,,,21,21,,,
+,,,,,,,,,,,,,,,23,23,,,,,22,22,,,
+,,,,,,,,,,,,,,,24,24,,,,,23,23,,,
+,,,,,,,,,,,,,,,25,25,,,,,24,24,,,
+,,,,,,,,,,,,,,,26,26,,,,,25,25,,,
+,,,,,,,,,,,,,,,27,27,,,,,26,26,,,
+,,,,,,,,,,,,,,,28,28,,,,,27,27,,,
+,,,,,,,,,,,,,,,29,29,,,,,28,28,,,
+,,,,,,,,,,,,,,,30,30,,,,,29,29,,,
+,,,,,,,,,,,,,,,,,,,,,30,30,,,
