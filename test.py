@@ -38,7 +38,12 @@ def find_voltage_code(code):
 #
 # for x,y in zip(n,l):
 #     print(x, y)
+#
+# l = [1,2,3]
+# print(len(l))
 
-l = [1,2,3]
-print(len(l))
+s = '3x32A/400V'
+
+print(s.split('A', 1)[0][-2:])
+print(s.split('A', 1)[1][1:4])
 
